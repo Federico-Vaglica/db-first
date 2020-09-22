@@ -1,0 +1,12 @@
+Automobili Usate
+ID                      AUTO_INCREMENT  UNIQUE
+Modello                 VARCHAR(40)     PRIMARY KEY
+Marca                   VACHAR(30)      PRIMARY KEY
+Km percorsi             SMALL           PRIMARY KEY
+Anno Immatricolazione   DATE            NOT NULL
+Colore                  VARCHAR(20)     NOT NULL
+Revisionata             VARCHAR(3)      NOT NULL
+Tagliando               VARCHAR(3)      NOT NULL
+Proprietari precedenti  TINIYINT        NULL 
+Prezzo Vendita          SMALL           NOTNULL
+Img                     VARCHAR()       DEFAULT()
